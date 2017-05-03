@@ -2,6 +2,7 @@ public class BowlingGame {
 
     public int getBowlingScore(String bowlingCode) {
 		String ss[];
+		int sum = 0;
     	ss = bowlingCode.split("\\|");
 		if (ss.length>10) {
 			ss[10]=ss[11];
